@@ -1,0 +1,27 @@
+{
+  "name": "di",
+  "version": "1.0.0",
+  "description": "convert table to image",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsc -p tsconfig.json && node dist/app.js",
+    "test": "tsc -p tsconfig.json && jest"
+  },
+  "author": "Sandy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "chart.js": "^2.9.4",
+    "chartjs-node-canvas": "^3.0.6",
+    "node-html-parser": "^2.0.0",
+    "tabletojson": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.0.5"
+  }
+}
